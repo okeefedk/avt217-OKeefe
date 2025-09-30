@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+h1 {
+	font-family: cc-overbyte-off, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+h3 {
+	font-family: meiryo, sans-serif;
+}
+h4 {
+	font-family: meiryo, sans-serif;
+}
+h2 {
+	font-family: adobe-handwriting-ernie, sans-serif;
+}
+dl {
+	font-family: meiryo, sans-serif
+}
+a:link {
+	color:darkblue;
+	text-decoration:none;
+}
+a:visited {
+	color:darkmagenta;
+}
+a:hover {
+	color:chartreuse;
+	text-decoration: underline;
+}
+a:active {
+	color:burlywood;
+}
+.weekly {
+	width:45%;
+	float:left;
+	margin: 5-5%;
+}
+
+#project {
+	width:45%;
+	float:left;
+}
+.demo {
+	font-weight: 100;
+	font-style:italic;
+	color:brown;
+}
