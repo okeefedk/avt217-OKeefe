@@ -35,7 +35,7 @@ img {
 }
 
 .box4 {
-	position:float;
+	float:right;
 	top: 2px;
 	right: 500px;
 }
