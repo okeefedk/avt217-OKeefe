@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.top-bar {
+    background-color: #c46a66; 
+    height: 125px;
+    width: 100%;
+	margin-bottom: 28px;
+}
+
+
+.middle-bar {
+    background-color: #a67b5b;
+    height: 58px;
+    width: 100%;
+	margin-bottom:28px
+}
+
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #fff;
+}
+
+
+.box {
+    background-color: #cbb2a5;
+    flex: 1; 
+    margin: 0 16px; 
+    height: 950px;
+	width: 584;
+}
+
+.bottom-bar {
+    background-color: #5c2d2c; 
+    height: 103px; 
+    width: 100%;
+	margin-top:24px;
+}
