@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+  body {
+    text-align: center;
+    background:url("../img/thanksgiving.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#container {
+margin: 25vh;
+  }
+
+  p {
+    text-transform:uppercase;
+	  font-family: "BBH Sans Hegarty";
+	font-size: 100px;
+	color:white;
+  }
+ 
+
+
+/* tell browser don't display it when screen is wider than 768px */
+  .mobile-only {
+    display: none;
+  }
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+  @media only screen and (max-width: 768px) {
+	  
+
+    body {
+ background:url("../img/pattern.png")
+    }
+	  
+	#container {
+ 
+    }
+	   
+    p {
+text-transform:none;
+		color:black;
+		font-family: "EB Garamond"
+    }
+	  
+	#cursive {
+		font-family: "Dancing Script";
+	font-size: 10vh;
+  	}
+	  
+    .mobile-only {
+   display:block;
+    }
+	  /* Now the style and content for desktop will not be displied */
+    .desktop-only {
+  
+    }
+
+} /* don't forget to close the styles for mobile/
+
