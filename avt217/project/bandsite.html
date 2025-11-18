@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>夜光 - Yakou Official Site</title>
+  <link rel="stylesheet" href="css/styles.css" />
+	<script>
+  (function(d) {
+    var config = {
+      kitId: 'qcn6hpq',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+</head>
+<body>
+	
+	<img src="img/yakou.PNG" alt="Band Logo" class="corner-logo">
+	
+<div id="Sidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="bandsite.html">Home</a>
+  <a href="news.html">News</a>
+  <a href="discography.html">Discography</a>
+  <a href="merch.html">Merch</a>
+</div>
+<script>
+function openNav() {
+  document.getElementById("Sidenav").style.width = "250px";
+  document.getElementById("test").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("Sidenav").style.width = "0";
+  document.getElementById("test").style.marginLeft= "0";
+}
+</script>
+	
+<div id="test">
+  <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+  <main>
+
+   <section class="hero">
+  <div class="hero-blur"></div>
+  <img class="hero-main" src="img/mangetsu.PNG" alt="Cover art">
+	  
+</section>
+	
+	
+    <section class="promo">
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="outer">
+        <img src="img/uchuujin.png" style="width:20%; margin-left:10vh;">
+        <div class="text">
+          <span class="title">New Album 「宇宙人」</span>
+          <span class="info">Now Streaming</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="outer">
+        <img src="img/ongaku.png" style="width:20%; margin-left:10vh;">
+        <div class="text">
+          <span class="title">New Single「音楽のせいだ」</span>
+          <span class="info">Now Streaming</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="outer">
+        <img src="img/hoshi.png" style="width:20%; margin-left:10vh;">
+        <div class="text">
+          <span class="title">New Single「星々」</span>
+          <span class="info">Now Streaming</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</section>
+
+	
+    <section id="news" class="news container">
+		<div class="fastnews">
+  <h2>Fast News</h2>
+</div>
+  <div class="news-flex">
+	  <div class="newsmain">
+    <img class="news-main-img" src="img/jugatsublur.png" alt="thumbnail">
+		  <h3>New Single 「十月君がいない」</h3>
+      <p>Announced, no planned release date however members are saying January 2026 is looking promising.</p>
+	  </div>
+    <div class="news-main-text">
+     <div class="news-side">
+    <div class="side-item">
+      <h4>New Single 「星々」</h4>
+      <p>Out now on Apple Music, Spotify, and Youtube Music.</p>
+    </div>
+    <div class="side-item">
+      <h4>Live Tour 「満月のダンス」</h4>
+      <p>Find out how to secure tickets now.</p>
+    </div>
+    <div class="side-item">
+      <h4>New Album 「宇宙人」</h4>
+      <p>Out on Apple Music, Spotify, and Youtube Music.</p>
+    </div>
+    <div class="side-item">
+      <h4>New Single 「音楽のせいだ」</h4>
+      <p>Out now on Apple Music, Spotify, and Youtube Music.</p>
+    </div>
+    <a class="more" href="#">View more</a>
+  </div>
+    </div>
+    </div>
+</section>
+
+
+    <section class="videos-container">
+      <h2>Videos</h2>
+      <a class="video-thumb" href="https://www.youtube.com/watch?v=0IylKIE9LoY&list=RD0IylKIE9LoY&start_radio=1">
+        <img src="img/rokugatsu.jpg" style="width:60%;" alt="Music video thumbnail">
+      </a>
+    </section>
+
+    
+    <section class="members-container">
+      <h2>Members</h2>
+      <div class="members-grid">
+        <div>
+          <p><strong>Vocals:</strong> Miu</p>
+          <p><strong>Piano:</strong> Kyoji Nakamura</p>
+          <p><strong>Drums:</strong> Kaito Takahashi</p>
+        </div>
+        <div>
+          <p><strong>Guitar:</strong> Renji</p>
+          <p><strong>Bass:</strong> Aoi Sato</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© 月輪</div>
+  </footer>
+	<script>
+let slideIndex = 0;
+function showSlides() {
+  const slides = document.getElementsByClassName("mySlides");
+  const dots = document.getElementsByClassName("dot");
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slideIndex++;
+  if (slideIndex > slides.length) { slideIndex = 1; }
+
+  for (let i = 0; i < dots.length; i++) {
+    dots[i].classList.remove("active");
+  }
+
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].classList.add("active");
+
+  setTimeout(showSlides, 3000); // change slide every 3s
+}
+
+document.addEventListener("DOMContentLoaded", showSlides);
+</script>
+</body>
+</html>

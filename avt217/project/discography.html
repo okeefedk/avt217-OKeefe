@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>News</title>
+	 <link rel="stylesheet" href="css/discstyle.css" />
+	<script>
+  (function(d) {
+    var config = {
+      kitId: 'qcn6hpq',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+		
+</script>
+</head>
+
+<body>
+	<header>
+	<div class="header"></div>
+	</header>
+	<div id="Sidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="bandsite.html">Home</a>
+  <a href="news.html">News</a>
+  <a href="discography.html">Discography</a>
+  <a href="merch.html">Merch</a>
+</div>
+<script>
+function openNav() {
+  document.getElementById("Sidenav").style.width = "250px";
+  document.getElementById("test").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("Sidenav").style.width = "0";
+  document.getElementById("test").style.marginLeft= "0";
+}
+</script>
+	
+<div id="test">
+  <span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+	
+	<main>
+		
+		<div class="container">
+    <h1>Discography</h1>
+    <div class="grid">
+      <div class="item">
+        <img src="img/hoshi.png" alt="星々" />
+        <p>星々</p>
+      </div>
+      <div class="item">
+        <img src="img/uchuujin.png" alt="宇宙人" />
+        <p>宇宙人</p>
+      </div>
+      <div class="item">
+        <img src="img/mangetsu.PNG" alt="月輪" />
+        <p>月輪</p>
+      </div>
+      <div class="item">
+        <img src="img/ongaku.png" alt="音楽のせいだ" />
+        <p>音楽のせいだ</p>
+      </div>
+      <div class="item">
+        <img src="img/florence.png" alt="フロランス" />
+        <p>フロランス</p>
+      </div>
+      <div class="item">
+        <img src="img/hanabi.png" alt="去年の花火" />
+        <p>去年の花火</p>
+      </div>
+      <div class="item">
+        <img src="img/sakura.png" alt="桜と月光" />
+        <p>桜と月光</p>
+      </div>
+      <div class="item">
+        <img src="img/yoake.png" alt="夜明け" />
+        <p>夜明け</p>
+      </div>
+    </div>
+  </div>
+	
+	</main>
+	<footer class="footer">
+    <div class="container">© 月輪</div>
+  </footer>
+</body>
+</html>
