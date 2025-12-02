@@ -25,6 +25,7 @@ main {
   align-items: center;
   justify-content: center;
   font-size: 18px;
+	margin-bottom:5vh;
 }
 
 .sidenav {
@@ -140,4 +141,71 @@ position:top;
   align-items: center;
   justify-content: center;
   font-size: 18px;
+	margin-top:20vh;
+}
+
+@media screen and (orientation: portrait) and (max-width: 900px) {
+
+
+  .header {
+    height: 70px;
+    margin-bottom: 3vh;
+  }
+
+ 
+  #test {
+    top: 10px;
+    left: 15px;
+    padding: 0;
+    background-color: transparent;
+  }
+
+ 
+  .Title {
+    margin-left: 20px;
+    font-size: 32px;
+  }
+
+
+  .news-flex {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 20px;
+  }
+
+  
+  .news-main-img {
+    height: auto;
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  
+  .newsmain h3,
+  .newsmain p {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+
+  .news-side {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 20px;
+    margin-top: 20px;
+    max-width: none;
+  }
+
+  .side-item h4 {
+    font-size: 18px;
+  }
+
+ 
+  .footer {
+    height: 80px;
+    background-size: cover;
+    margin-top: 10vh;
+  }
 }
